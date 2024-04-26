@@ -1,0 +1,453 @@
+body{
+    margin: 0;
+}
+#parent{
+    background-color: black;
+   
+}
+#icon1{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-size: 15px;
+    
+}
+
+.chil{
+    border-bottom: 2px solid yellow;
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+   
+}
+.child{
+    margin-left: 5 px;
+    font-size: 20px;
+    text-decoration-line: none;
+    color:white; 
+}
+#home{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+#div1{
+    background-color:rgb(28, 27, 27);
+    height: 250px;
+}
+#Security{
+    text-align: center;
+    padding: 100px;
+    color: white;
+    margin: 0px;
+}
+#icon{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+    padding: 50px;
+}
+.p2{
+    text-align: center;
+}
+.p1{
+    width: 200px;
+    text-align: center;
+   
+}
+.p3{
+    text-align: center;
+}
+.p4{
+    width: 200px;
+    text-align: center;   
+}
+.p5{
+    text-align: center;
+}
+.p6{
+    width: 200px;
+    text-align: center;
+}
+
+#icon2{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+    padding: 50px;
+}
+#img1{
+   height: 400px;
+}
+.p8{
+   text-align: center;
+   width: 400px;
+   margin-top: 150px;
+   font-size: 20px;
+}
+
+
+
+#icon3{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+    padding: 50px;
+}
+
+.p9{
+    text-align: center;
+    width: 400px;
+    margin-top: 150px;
+    font-size: 20px;  
+}
+.p10{
+    text-align: center;
+    width: 400px;
+    
+    font-size: 20px; 
+}
+#img2{
+    height: 400px;
+}
+
+
+#icon4{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+    padding: 50px;
+}
+#img3{
+    height: 400px;
+}
+
+
+.p11{
+    text-align: center;
+    width: 400px;
+    margin-top: 150px;
+    font-size: 30px; 
+}
+.p12{
+    text-align: center;
+    width: 400px;
+    
+    font-size: 20px; 
+}
+
+#div2{
+    height: 400px;
+    background-image: url(img-container/luis.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.p13{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+.p14{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.p15{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.p16{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: 700px;
+}
+#button:hover{
+    background-color: white;
+}
+
+
+#div6{
+    height: 200px;
+    background-color: rgb(30, 28, 28); 
+
+}
+#div6{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+}
+#das{
+    width: 300px;
+    padding: 30px;
+    color: white;
+}
+#service{
+    width: 300px;
+    color: white;
+}
+
+
+#service{
+    width: 300px;
+    padding: 30px;
+    color: white;
+}
+#adreess{
+    width: 300px;
+    color: white;
+}
+
+#company{
+    width: 300px;
+    padding: 30px;
+    color: white;
+}
+#about{
+    width: 110px;
+    color: white;
+}
+
+#addre{
+    width: 350px;
+    padding: 30px;
+    color: white;
+}
+#Barasat{
+    width: 210px;
+    color: white;
+}
+#hr2{
+    color: black;
+}
+
+
+
+
+/* Styles for laptop and desktop screens */
+@media only screen and (min-width: 1024px) {
+    #parent {
+        background-color:black; /* Change background color for laptop and desktop */
+    }
+
+    #div2 {
+        height: 600px; /* Adjust height for laptop and desktop */
+        background-image: url(img-container/luis.jpg); /* Change background image */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #addre,#Barasat,#address,#company,#service{
+        color: white;
+    }
+}
+
+
+/*media screen ipad and pad*/
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .section {
+        padding: 10px; 
+    }
+    #parent{
+        width: 120%;
+        padding: 10px;
+    }
+    #icon{
+        margin-left: 25%;
+      
+    }
+    .p2,.p3,.p5{
+        padding: 30px;
+    }
+    .p1,.p4,.p6{
+        padding: 30px;
+    }
+    .p9,.p12,.p10{
+        padding: 10px;
+    }
+    #div2{
+        height: 400px;
+        width: 120%;
+        background-image: url(img-container/luis.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+    #div6{
+        width: 120%;
+        padding: 10px;
+       
+    }
+    .button {
+        margin-left: auto;
+        margin-right: auto; 
+        display: block; 
+    }
+    #icon3,#icon4,#icon2{
+       padding: 20%;
+       margin-left: 10%;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 768px) {
+   
+    .section {
+        padding: 10px; 
+    }
+    #parent{
+        width: 120%;
+        padding: 10px;
+    }
+    #icon{
+        margin-left: 25%;
+      
+    }
+    .p2,.p3,.p5{
+        padding: 30px;
+    }
+    .p1,.p4,.p6{
+        padding: 30px;
+    }
+    #div2{
+        height: 400px;
+        width: 150%;
+        background-image: url(img-container/luis.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+    #div6{
+        width: 120%;
+        padding: 10px;
+       
+    }
+    .button {
+        margin-left: auto;
+        margin-right: auto; 
+        display: block; 
+    }
+    #icon3,#icon4,#icon2{
+       
+       margin-left: 20%;
+    }
+}
+
+@media(max-width:768px){
+    .section {
+        padding: 10px; 
+    }
+    #parent{
+        width: 158%;
+        padding: 10px;
+    }
+    #icon{
+        margin-left: 54%;
+      
+    }
+    .p2,.p3,.p5{
+        padding: 30px;
+    }
+    .p1,.p4,.p6{
+        padding: 30px;
+    }
+    #div2{
+        height: 400px;
+        width: 158%;
+        background-image: url(img-container/luis.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+    #div6{
+        width: 150%;
+        padding: 40px;
+       
+    }
+    .button {
+        margin-left: auto;
+        margin-right: auto; 
+        display: block; 
+    }
+    #icon3,#icon4,#icon2{
+       
+       margin-left: 50%;
+    }
+}
+
+
+@media(max-width:468px){
+    .section {
+        padding: 10px; 
+    }
+    #parent{
+        width: 170%;
+        padding: 10px;
+    }
+    #icon{
+        margin-left: 25%;
+      
+    }
+    .p2,.p3,.p5{
+        padding: 30px;
+    }
+    .p1,.p4,.p6{
+        padding: 30px;
+    }
+    #div2{
+        height: 400px;
+        width: 120%;
+        background-image: url(img-container/luis.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+    #div6{
+        width: 120%;
+        padding: 10px;
+       
+    }
+    .button {
+        margin-left: auto;
+        margin-right: auto; 
+        display: block; 
+    }
+    #icon3,#icon4,#icon2{
+       
+       margin-left: 20%;
+    }
+}
+
+
+ 

@@ -1,0 +1,163 @@
+
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+}
+
+
+.img1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+   
+   
+}
+
+
+.chil{
+    border-bottom: 2px solid yellow;
+    border-radius: 40%;
+    height: 30px;
+    width: 70px;
+   
+}
+.child{
+    margin-left: 5 px;
+    font-size: 20px;
+    text-decoration-line: none;
+    color: white; 
+}
+
+.p1{
+    margin-left: 1100px;
+    margin-top: 200px;
+    color: white;
+}
+.h1{
+    margin-left:1100px;
+    color: white;
+    font-size: 50px;
+}
+.p2{
+    color:white;
+    margin-left: 1100px;
+   
+}
+.p3{
+    color: white;
+    margin-left:1100px;
+    margin-top:100px;
+}
+.p4{
+    color: white;
+    margin-left: 1100px;
+    margin-top:px;
+}
+
+
+
+
+
+/*desop and laptop*/
+/* For laptop and desktop screens */
+@media only screen and (min-width: 1024px) {
+    .icon {
+        justify-content: space-around;
+    }
+
+    .chil {
+        width: 100px; 
+    }
+
+    .child {
+        margin-left: 10px; 
+        font-size: 24px; 
+    }
+
+    .p1,
+    .h1,
+    .p2,
+    .p3,
+    .p4 {
+        margin-left: 70%; 
+        text-align: left; 
+        font-size: 20px;
+    }
+}
+
+/*Tablets and ipads*/
+@media only screen and (min-width:769px)and (max-width:1023px){
+    .icon {
+        justify-content: space-around;
+    }
+
+    .chil {
+        width: 80px; 
+    }
+
+    .child {
+        margin-left: 10px; 
+        font-size: 20px; 
+    }
+
+    .p1,
+    .h1,
+    .p2,
+    .p3,
+    .p4 {
+        margin-left: 70%; 
+        text-align: left; 
+      
+    }
+}
+
+
+
+
+
+
+
+/*mobile screen
+*/
+
+@media only screen and (max-width: 768px) {
+    .icon {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .chil {
+        width: 50px;
+    }
+
+    .child {
+        margin-left: 0; 
+        font-size: 14px; 
+    }
+
+    .p1,
+    .h1,
+    .p2,
+    .p3,
+    .p4 {
+        margin-left: 0; 
+        text-align: center; 
+    }
+}
+@media(max-width:468px){
+    .icon{
+        flex-direction: column;
+        align-items: center;
+        padding:10px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+
+
